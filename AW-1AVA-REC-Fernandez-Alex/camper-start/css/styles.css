@@ -1,0 +1,105 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+@font-face{
+    font-family: Folded regular;
+    src: url(../fonts/folded-regular-webfont.woff2);
+}
+@font-face{
+    font-family: ModerneLLWeb;
+    src: url(../fonts/ModerneLLWeb-Medium.woff2);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 98%;
+    padding: 3px;
+}
+nav a{
+    
+    text-decoration: none;
+    color: black;
+    font-family: ModerneLLWeb;
+    letter-spacing: 5px;
+    font-size: 1.3rem;
+}
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    height: 450px;
+    color: white;
+    background-image: url(../img/background-1.avif);
+    background-size: cover;
+}
+.principal h1{
+    font-family: ModerneLLWeb;
+    width: 200px;
+    background-color: rgba(63, 61, 61, 0.322);
+}
+.principal p{
+    font-size: 1.5rem;
+}
+.informacion-compania{
+    display: grid;
+    grid-template-rows: 20rem;
+    grid-template-columns: 1fr 1fr;
+}
+.informacion-compañia h3{
+    font-size: 2rem;
+    font-family: ModerneLLWeb;
+}
+.never{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/background-3.avif);
+    background-size: cover;
+}
+.localizador-tiendas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/background-4.avif);
+    background-size: 100%;
+}
+#lista-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.card{
+    max-width: 400px;
+    position: relative;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.twins{
+    float: left;
+    border: 2px;
+}
+.twins img{
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 7px;
+
+}
+footer img{
+
+    width: auto;
+}
+footer .iconos img{
+    height: 30px;
+}
